@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6971959283506250833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1247772646326956183}
+  - component: {fileID: 823848465756400352}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1247772646326956183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971959283506250833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.246237, y: 0.800151, z: -7.9401536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823848465756400352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971959283506250833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedd662b76914436eae740464e5f4542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    audioOutputMixer: {fileID: -8633872033712803232, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 0160166e6ee724e8a8b416c005275e3c, type: 3}
+    volume: 0.616
+    pitch: 1
+    priority: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Gasp
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 224d95336713d434496b398a19c6c48e, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Scream
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 941badaa991514b7c87ac250f958db9c, type: 3}
+    volume: 0.92
+    pitch: 0.9
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: ShadowDeath
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: f6341364ddcea43b08f1192d6594d590, type: 3}
+    volume: 0.555
+    pitch: 0.323
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Tiny
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 49eddedf8dd234e8ea6038558c25ab1c, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Small
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 654ce32b497974723af2af4bbcacfde2, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Medium
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: a72b30946a8c84f5d9909374ad96c0d6, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Big
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 398df3b2efb284896bcbb888163daf53, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Huge
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: e9ab9ff075bcc46909631f773b92186e, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Good
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: d3a44ca945019464bad657480f9569e8, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    audioOutputMixer: {fileID: -7186161163582652625, guid: 4f6fb7bca8dc741459492e93800ea4e1, type: 2}
+    clip: {fileID: 8300000, guid: 9285efba71d0e4fc6bef6f76fa87a587, type: 3}
+    volume: 0.92
+    pitch: 1
+    priority: 0
+    loop: 0
+    source: {fileID: 0}
